@@ -1,8 +1,12 @@
 {
   "name": "virtual-input",
+  "version": "1.0",
+  "home_assistant_domain": "github",
+  "funding_url": "tweichselbaumer.github.io",
+  "new_install_prompt_erase": false,
   "builds": [
     {
-      "chipFamily": "ESP32",
+      "chipFamily": "ESP32-S3",
       "improv": true,
       "parts": [
         { "path": "bootloader.bin", "offset": 0 },
